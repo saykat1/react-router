@@ -1,0 +1,38 @@
+
+  .contact-area {
+    /* margin-top: 57px; */
+    /* height: 200px;
+    line-height: 200px; */
+    /* text-align: center; */
+  }
+
+  .social-icons {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .social-icons__item {
+    display: inline-block;
+    font-size: 25px;
+    color: #20232A;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .social-icons__item:last-child {
+    margin-right: 0px;
+  }
+  .social-icons__item.linkedIn:hover {
+    color: #0e76a8;
+  }
+  .social-icons__item.facebook:hover {
+    color: #0088dc;
+  }
+  .social-icons__item.github:hover {
+    color: #6e5494;
+  }
+  .social-icons__item.hackerRank:hover {
+    color: #1ba94c;
+  }

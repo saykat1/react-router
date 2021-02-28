@@ -1,42 +1,62 @@
 import { NavLink } from "react-router-dom";
+import NavSub from "./NavSub/NavSub";
+
 import "./Nav.css";
 
 function Nav() {
+  function menuButton(event) {
+    const parent = event.target.parentElement;
+
+    if (parent.classList.contains("mBtn")) {
+      parent.parentElement.classList.toggle("open");
+    } else {
+      event.target.parentElement.classList.toggle("open");
+    }
+  }
+
   return (
-    <ul className="main-nav">
-      <li className="main-nav__item">
-        <NavLink exact to="/" className="main-nav__link">
-          About
-        </NavLink>
-      </li>
-      <li className="main-nav__item">
-        <NavLink to="/resume" className="main-nav__link">
-          Resume
-        </NavLink>
-      </li>
-      <li className="main-nav__item">
-        <NavLink to="/project" className="main-nav__link">
-          Projects
-        </NavLink>
-        <ul className="main-nav__sub sub-menu">
-          <li className="sub-menu__item">
-            <NavLink to="/project/js" className="sub-menu__link">
-              JS
-            </NavLink>
-          </li>
-          <li className="sub-menu__item">
-            <NavLink to="/project/react" className="sub-menu__link">
-              React
-            </NavLink>
-          </li>
-          <li className="sub-menu__item">
-            <NavLink to="/project/html" className="sub-menu__link">
-              HTML
-            </NavLink>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <div className="nav-wrap">
+      <button className="mBtn" onClick={(event) => menuButton(event)}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul className="main-nav">
+        <li className="main-nav__item">
+          <NavLink
+            exact
+            to="/"
+            className="main-nav__link"
+            activeClassName="menuItemActive"
+          >
+            About
+          </NavLink>
+        </li>
+        <li className="main-nav__item">
+          <NavLink
+            to="/resume"
+            className="main-nav__link"
+            activeClassName="menuItemActive"
+          >
+            Resume
+          </NavLink>
+        </li>
+        <li className="main-nav__item">
+          <NavLink
+            to="/project/all"
+            className="main-nav__link"
+            activeClassName="menuItemActive"
+          >
+            Projects
+          </NavLink>
+
+          <NavSub />
+        </li>
+      </ul>
+    </div>
   );
 }
 

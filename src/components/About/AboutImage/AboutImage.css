@@ -1,0 +1,15 @@
+.about-Image img {
+  border-radius: 2px;
+  border: 2px solid #f7f7f7;
+}
+
+@media (max-width: 991px) {
+  .about-Image{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-Image img{
+    border-radius: 50%;
+  }
+}

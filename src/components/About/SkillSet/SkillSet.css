@@ -1,0 +1,40 @@
+.skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills__item {
+  font-size: 18px;
+  padding: 15px;
+}
+.html {
+  color: #e34c26;
+}
+.css {
+  color: #264de4;
+}
+.bootstrap {
+  color: #563d7c;
+}
+.sass {
+  color: #cd6799;
+}
+.js {
+  color: #323330;
+}
+.react {
+  color: #61dbfb;
+}
+.node {
+  color: #3c873a;
+}
+.git {
+  color: #f34f29;
+}
+.sills__name {
+  display: block;
+  font-size: 20px;
+}
+.skills__item {
+  text-align: center;
+}

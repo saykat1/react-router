@@ -1,0 +1,30 @@
+.sub-menu {
+  position: absolute;
+  right: 0;
+  top: 130%;
+  width: 300px;
+  z-index: 1;
+  background-color: #282c34;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.main-nav .sub-menu__link {
+  color: #fff;
+}
+
+.main-nav__item:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+
+@media (max-width: 991px){
+  .sub-menu {
+    width: 100%;
+  }
+
+}
