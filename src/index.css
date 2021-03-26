@@ -18,8 +18,9 @@ ul li{
 body{
   font-size: 16px;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* background-image: url(/img/double-bubble-outline.png); */
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
+  min-height: 100vh;
+  background-color: #ddd;
 }
 /* -------------------------------------------------------------------------- */
 

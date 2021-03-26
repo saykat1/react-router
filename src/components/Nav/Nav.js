@@ -15,7 +15,7 @@ function Nav() {
   }
 
   return (
-    <div className="nav-wrap">
+    <>
       <button className="mBtn" onClick={(event) => menuButton(event)}>
         <span></span>
         <span></span>
@@ -56,7 +56,7 @@ function Nav() {
           <NavSub />
         </li>
       </ul>
-    </div>
+    </>
   );
 }
 

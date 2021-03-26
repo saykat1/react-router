@@ -14,7 +14,7 @@ function AboutDesc() {
         <br /> I know well
         <strong> HTML, CSS, Bootstrap, JavaScript and React</strong>. I also
         know Scss, BEM methodology, NodeJS/ExpressJS, MongoDB, SQL. I believe in
-        my skills. I like to write logic. I want to be a Software Engineer.
+        my skills. I like to write logic. I want to be a MERN Stack Developer.
       </p>
     </div>
   );
