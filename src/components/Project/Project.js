@@ -11,6 +11,7 @@ class Project extends react.Component {
   };
 
   render() {
+    document.title = "Projects";
     let { category } = this.props;
     return (
       <Container>

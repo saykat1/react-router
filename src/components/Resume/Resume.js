@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Resume.css";
 
 function Resume() {
+  document.title = "Resume";
   return (
     <Container>
       <Row>
