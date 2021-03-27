@@ -15,7 +15,7 @@ function SocialIcons() {
           <FaFacebook />
         </a>
         <a
-          href="https://www.linkedin.com/in/nur-mohammad-b4b9b4150/"
+          href="https://www.linkedin.com/in/nur-mohammad-soikat-b4b9b4150/?trk=public-profile-join-page"
           target="_blank"
           className="social-icons__item linkedIn"
         >
