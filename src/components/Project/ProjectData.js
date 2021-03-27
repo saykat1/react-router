@@ -3,7 +3,7 @@ function ProjectData() {
     {
       _id: 1,
       categories: ["all", "html"],
-      description: "The site I designed form adobeXD.",
+      description: "adobeXD to HTML.",
       link: "http://hiwork-bd.com/",
       image: "/img/projects/web-design/hiwork-bd.png",
     },
@@ -11,14 +11,15 @@ function ProjectData() {
       _id: 2,
       categories: ["all", "html"],
       description:
-        "This was my first project in my current company(b-causebd).",
+        "This was my first project at my current company(b-causebd).",
       link: "http://b-causeph.com/",
       image: "/img/projects/web-design/b-causeph.png",
     },
     {
       _id: 3,
       categories: ["all", "html"],
-      description: "There are 4 different homepage design, and more pages",
+      description:
+        "There are 4 different homepage design, and more pages (PSD to HTML)",
       link: "https://saykat1.github.io/4home-page/",
       image: "/img/projects/web-design/4-home-page-design.png",
     },
@@ -33,7 +34,7 @@ function ProjectData() {
     {
       _id: 5,
       categories: ["all", "html"],
-      description: "This site design from figma file",
+      description: "Figma to HTML",
       link: "https://saykat1.github.io/backpack-site-a2/",
       image: "/img/projects/web-design/BackPack-Moon.png",
     },
@@ -56,7 +57,7 @@ function ProjectData() {
       _id: 8,
       categories: ["all", "react"],
       description:
-        "Stopwatch using React, It has ability to take a lap, save in browser local storage and delete lap and Reset Stopwatch.",
+        "Stopwatch using React, Take Lap, save in browser local storage and delete lap and Reset Stopwatch.",
       link: "https://saykat1.github.io/stopwatch/",
       image: "/img/projects/react/react-stopwatch.png",
     },

@@ -13,7 +13,7 @@ class App extends react.Component {
     return (
       <react.Fragment>
         <BrowserRouter>
-          <div className="nav-wrap">
+          <div className="nav-area">
             <Container>
               <Row>
                 <Col>

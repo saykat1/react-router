@@ -104,4 +104,10 @@
   .resume-content__year-map {
     width: 100%;
   }
+
+  .resume-content__year-map h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
 }

@@ -56,7 +56,7 @@ function ResumeCard() {
         <article className="resume-content">
           <div className="resume-content__year-map">
             <h2>
-              Start-2013 <br /> Complete-2017
+              Start-2013 <br /> Completed-2017
             </h2>
           </div>
 
