@@ -1,5 +1,5 @@
 .about-desc__name {
-  color: #ff8d00;
+  color: var(--themeDarkColor);
 }
 
 

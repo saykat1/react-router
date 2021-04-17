@@ -1,0 +1,52 @@
+.best-project {
+  border: 0.1px dotted var(--themeDarkColor);
+  border-radius: 5px;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  min-height: 200px;
+  position: relative;
+  max-height: 300px;
+  transition: .2s;
+}
+
+.best-project:before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--themeDarkColor);
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  visibility: hidden;
+  transition: .2s;
+  z-index: 1;
+}
+
+.best-project__image img{
+  transition: .2s;
+}
+
+.best-project:hover .best-project__image img{
+  transform: scale(1.2);
+}
+
+.best-project:hover::before{
+  opacity: .2;
+  visibility: visible;
+}
+
+.best-project:hover .best-project__title {
+  visibility: hidden;
+}
+
+.best-project__title {
+  color: var(--themeDarkColor);
+  font-size: 24px;
+  margin: 15px auto;
+  text-align: center;
+  visibility: visible;
+  transition: .2s;
+}

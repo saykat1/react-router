@@ -1,5 +1,5 @@
 .projects {
-  background-color: #f5f5f5;
+  /* background-color: var(--themeDarkColor); */
   padding: 15px 0;
 }
 
@@ -8,13 +8,15 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  /* height: 300px; */
-  margin-bottom: 10px;
-  border: 1px solid #ff8b00;
+  height: 150px;
+  /* height: 100%; */
+  margin-bottom: 15px;
+  border: 1px solid var(--themeDarkColor);
 }
 
 .project__image{
-  max-height: 300px;
+  /* max-height: 300px; */
+  max-height: 150px;
   overflow: hidden;
 }
 
@@ -43,7 +45,7 @@
   visibility: visible;
   opacity: 1;
   bottom: 0;
-  background-color: #ff8d00;
+  background-color: var(--themeDarkColor);
   color: #fff;
 }
 .project:hover .project__image img {

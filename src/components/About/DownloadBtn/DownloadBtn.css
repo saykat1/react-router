@@ -3,8 +3,8 @@
   border: none;
   padding: 10px 15px;
   background-color: transparent;
-  border: 2px solid #ff8d00;
-  color: #ff8d00;
+  border: .1px dotted var(--themeDarkColor);
+  color: var(--themeDarkColor);
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -13,7 +13,7 @@
   position: relative;
   border-radius: 3px;
   z-index: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-resume:before {
@@ -21,21 +21,21 @@
   content: "";
   width: 100%;
   height: 3%;
-  background-color: #ddd;
+  background-color: var(--themeDarkColor);
   left: 0%;
   top: 0%;
   z-index: -1;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease;
   opacity: 0;
 }
 
 .btn-resume:hover:before {
-  background-color: #ff8d00;
+  background-color: var(--themeDarkColor);
   height: 100%;
   opacity: 1;
 }
 
 .btn-resume:hover {
   color: #fff;
-  border-color: #e8bdbd;
+  border-color: var(--themeDarkColor);
 }

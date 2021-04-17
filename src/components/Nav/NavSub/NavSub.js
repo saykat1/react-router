@@ -24,6 +24,15 @@ function NavSub() {
       </li>
       <li className="sub-menu__item">
         <NavLink
+          to="/project/MERN"
+          className="sub-menu__link"
+          activeClassName="menuItemActive"
+        >
+          MERN
+        </NavLink>
+      </li>
+      <li className="sub-menu__item">
+        <NavLink
           to="/project/html"
           className="sub-menu__link"
           activeClassName="menuItemActive"

@@ -13,11 +13,11 @@
 }
 
 .main-nav__item .menuItemActive {
-  color: #ff8d00;
+  color: var(--themeLightColor);
 }
 
 .main-nav li a:hover {
-  color: #ff8d00;
+  color: var(--themeLightColor);
 }
 
 
@@ -106,7 +106,7 @@
   .nav-wrap.open .main-nav {
     display: block;
     position: absolute;
-    background-color: #282c34;
+    background-color: #00203FFF;
     right: 0;
     top: 100%;
     width: 80%;

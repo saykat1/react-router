@@ -1,3 +1,4 @@
+import "./Project.css";
 import react from "react";
 import ProjectData from "./ProjectData";
 import NavSub from "../Nav/NavSub/NavSub";
@@ -29,7 +30,7 @@ class Project extends react.Component {
                 // console.log("includes", item.categories.includes(category));
                 if (item.categories.includes(category)) {
                   return (
-                    <Col sm={6} md={4} xl={3}>
+                    <Col sm={6} md={4} xl={4}>
                       <ProjectItem
                         key={index}
                         link={item.link}
@@ -41,6 +42,22 @@ class Project extends react.Component {
                 }
               })}
             </Row>
+
+            {/* <div className="projects-wrap">
+              {this.state.projects.map((item, index) => {
+                // console.log("includes", item.categories.includes(category));
+                if (item.categories.includes(category)) {
+                  return (
+                    <ProjectItem
+                      key={index}
+                      link={item.link}
+                      imgPath={item.image}
+                      description={item.description}
+                    />
+                  );
+                }
+              })}
+            </div> */}
           </Col>
         </Row>
       </Container>

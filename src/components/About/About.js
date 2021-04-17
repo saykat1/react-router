@@ -4,13 +4,22 @@ import DownloadBtn from "./DownloadBtn/DownloadBtn";
 import AboutImage from "./AboutImage/AboutImage";
 import SocialIcons from "./SocialIcons/SocialIcons";
 import SkillSet from "./SkillSet/SkillSet";
+import ProjectData from "../Project/ProjectData";
+import BestProjects from "./BestProjects/BestProjects";
 
 import Resume from "../Resume/Resume";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
+import { useEffect, useState } from "react";
 
 function About() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    setProjects([...ProjectData()]);
+  }, []);
+
   return (
     <Container>
       <Row>
@@ -30,6 +39,22 @@ function About() {
             </Row>
           </div>
         </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+          <h2 className="section-title">Some Of My Projects</h2>
+        </Col>
+      </Row>
+      <Row>
+        {projects.map((item) => {
+          if (item.categories[2] === "top-page") {
+            return (
+              <Col sm={6}>
+                <BestProjects item={item} />
+              </Col>
+            );
+          }
+        })}
       </Row>
     </Container>
   );

@@ -3,8 +3,8 @@ import "./ResumeCard.css";
 function ResumeCard() {
   return (
     <section>
-      <section className="resume">
-        <h2 className="resume__title section-title">Working Experiences</h2>
+      <section className="resume about-marge">
+        <h2 className="resume__title">Working Experiences</h2>
 
         <article className="resume-content">
           <div className="resume-content__year-map">
@@ -22,18 +22,16 @@ function ResumeCard() {
               <p>Responsibilities:</p>
               <ul>
                 <li>Front End Part from PSD Or Concept</li>
+                <li>Responsiveness and Layout Fixing</li>
                 <li>Working on ERP project</li>
-                <li>Complex HTML table design</li>
               </ul>
             </p>
           </div>
         </article>
       </section>
 
-      <section className="resume">
-        <h2 className="resume__title section-title">
-          Educational Qualification
-        </h2>
+      <section className="resume about-marge">
+        <h2 className="resume__title">Educational Qualification</h2>
 
         <article className="resume-content">
           <div className="resume-content__year-map">
@@ -67,7 +65,7 @@ function ResumeCard() {
             <p className="experience__company-name">
               Bogura Polytechnic Institute
             </p>
-            <p className="experience__responsibility">CGPA: 3.37</p>
+            <p className="experience__responsibility">CGPA: 3.37 (out of 4)</p>
           </div>
         </article>
       </section>
