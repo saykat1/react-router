@@ -7,13 +7,13 @@ function SocialIcons() {
       <article article className="social-icons">
         {/* <p className="msg">Please feel free to contact me:</p>
         <p className="email">nurcse5@gmail.com</p> */}
-        <a
+        {/* <a
           href="https://www.facebook.com/nmsoikat"
           target="_blank"
           className="social-icons__item facebook"
         >
           <FaFacebook />
-        </a>
+        </a> */}
         <a
           href="https://www.linkedin.com/in/nur-mohammad-soikat-b4b9b4150/?trk=public-profile-join-page"
           target="_blank"
