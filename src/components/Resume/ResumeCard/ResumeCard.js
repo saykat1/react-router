@@ -46,7 +46,7 @@ function ResumeCard() {
               Dhaka International University
             </p>
             <p className="experience__responsibility">
-              9th Semester (3 semester remaining)
+              10th Semester (2 semester remaining)
             </p>
           </div>
         </article>

@@ -14,6 +14,8 @@ import "./About.css";
 import { useEffect, useState } from "react";
 
 function About() {
+  document.title = "NM Soikat";
+
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {

@@ -38,7 +38,7 @@
 
 .mBtn span {
   width: 50%;
-  background-color: #ff8d00;
+  background-color: var(--themeLightColor);
   height: 4px;
   display: block;
   float: left;
@@ -106,7 +106,7 @@
   .nav-wrap.open .main-nav {
     display: block;
     position: absolute;
-    background-color: #00203FFF;
+    background-color: var(--themeDarkColor);
     right: 0;
     top: 100%;
     width: 80%;
